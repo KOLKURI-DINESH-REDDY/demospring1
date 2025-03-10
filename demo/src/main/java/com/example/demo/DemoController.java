@@ -19,4 +19,9 @@ public class DemoController {
     {
         return "who";
     }
+    @GetMapping("what")
+    public String what()
+    {
+        return "what";
+    }
 }
